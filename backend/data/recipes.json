@@ -1,0 +1,32 @@
+[
+      { 
+            "title": "Pierogi", 
+            "ingredients": "mąka, woda, jajka, mięso, cebula, przyprawy", 
+            "description": "zagnieść ciasto, zrobić farsz, uformować pierogi, ugotować", 
+            "tags": ["Dinner"] 
+      },
+      { 
+            "title": "Banana Pancakes", 
+            "ingredients": "Mąka, mleko, jajko albo 2, troszkę oleju, proszek do pieczenia, przyprawy jak chce, cynamon", 
+            "description": "banany rozgnieść, dodać jajka, mleko, mąkę i przyprawy do smaku", 
+            "tags": ["Dessert", "Breakfast"] 
+      },
+      { 
+            "title": "Zapiekanka", 
+            "ingredients": "ziemniaki, ser, śmietanka, warzywa", 
+            "description": "pokroić ziemniaki nie tak cienko, umyć i zagotować na 5 min, wypełnienie, wyłożyć ziemniakami i piec 30 min w 180°", 
+            "tags": ["Dinner"] 
+      },
+      { 
+            "title": "Sosik Pomidorowy", 
+            "ingredients": "passata, czosnek, oregano, oliwa, sól, cukier", 
+            "description": "oliwę na patelnie, dodać czosneczek x3, podsmażyć, dodać passate, oregano, sol i cukier, gotowac 20 minut az do konsystencji fajnej", 
+            "tags": ["Vegan", "Vegetarian", "Dinner"] 
+      },
+      { 
+            "title": "Tiramisu", 
+            "ingredients": "3 jajka, 250 gramów mascarpone, duża kawa zaparzona, cukier 80 gramów (1/3 szklanki) przynajmniej , ciastka, kakao", 
+            "description": "Ubić ładnie trzepaczką 5 min ziółka z cukrem amaretto?, Ubić na sztywno białko też tak 10 min, Dodać mascarpone to żółtka, Dodać powoli wszystko do ubitych białek, Masa ma być fajna piankowa, układamy", 
+            "tags": ["Dessert"] 
+      }
+]
