@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "./node_modules/.bin/vite",
     "build": "./node_modules/.bin/vite build",
-    "preview": "./node_modules/.bin/vite preview"
+    "preview": "./node_modules/.bin/vite preview",
+    "start": "node server.js"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
