@@ -5,7 +5,7 @@ const dotenv = require('dotenv')
 const mongoose = require('./mongoose/config')
 const queries = require('./queries')
 const { getAllRecipes } = require('./queries')
-const User = require('./mongoose/userSchema')
+// const User = require('./mongoose/userSchema')
 
 ///////////////////////////
 // Data initialization
