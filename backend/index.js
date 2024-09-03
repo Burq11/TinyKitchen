@@ -82,32 +82,32 @@ async function initMongoose() {
         }
     });
 
-    //Login opetation
-    app.post('/api/login', async (req, res) => {
-        try{
-            const {email, password} = req.body;
-            const user = await User({email, password});
-            if(user){
-                res.status(200).send('Login successful');
-            }
-        } catch (error) {
-            res.status(401).send('Login failed');
+    // //Login opetation in progress
+    // app.post('/api/login', async (req, res) => {
+    //     try{
+    //         const {email, password} = req.body;
+    //         const user = await User({email, password});
+    //         if(user){
+    //             res.status(200).send('Login successful');
+    //         }
+    //     } catch (error) {
+    //         res.status(401).send('Login failed');
             
-        }
-    });
+    //     }
+    // });
 
-    app.post('/api/register', async (req, res) => {
-        try{
-            const {email, password} = req.body;
-            const user = await User.findOne({email});
-            if (!user || !(await user.comparePassword(password))) {
-                return res.status(401).send('Authentication failed');
-            }
-            res.send("User logged in successfully");
-        } catch (error) {
-            res.status(500).send(error);
-        }
-    });
+    // app.post('/api/register', async (req, res) => {
+    //     try{
+    //         const {email, password} = req.body;
+    //         const user = await User.findOne({email});
+    //         if (!user || !(await user.comparePassword(password))) {
+    //             return res.status(401).send('Authentication failed');
+    //         }
+    //         res.send("User logged in successfully");
+    //     } catch (error) {
+    //         res.status(500).send(error);
+    //     }
+    // });
 
     // Create a recipe
     app.post('/api/recipes', async (req, res) => {
