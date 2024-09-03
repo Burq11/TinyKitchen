@@ -1,6 +1,10 @@
 {
     "rewrites": [
       {
+        "source": "/api/(.*)",
+        "destination": "/index.js"
+      },
+      {
         "source": "/(.*)",
         "destination": "/frontend/index.html"
       }
@@ -16,12 +20,6 @@
         "config": {
           "distDir": "frontend/dist"
         }
-      }
-    ],
-    "routes": [
-      {
-        "src": "/api/(.*)",
-        "dest": "/index.js"
       }
     ]
   }
