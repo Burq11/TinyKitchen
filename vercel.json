@@ -22,5 +22,17 @@
         }
       }
     ],
-    "devCommand": "npm run dev --prefix frontend"
+    "devCommand": "npm run dev --prefix frontend",
+    "headers": [
+      {
+        "source": "/(.*)", 
+        "headers": [
+          {
+            "key": "Content-Security-Policy",
+            "value": "default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';"
+          }
+        ]
+      }
+    ]
   }
+  
