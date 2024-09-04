@@ -34,8 +34,6 @@ function loadTags() {
 // Initialize MongoDB connection
 async function initMongoose() {
     try {
-        // console.log("\nMongo connection string (as read from .env file):\n" + mongoConnectionString + "\n")
-        // console.error("### PLEASE REMEMBER TO DELETE THE .env FILE BEFORE SUBMITTING YOUR CODE ###\n")
         console.log("Connecting to MongoDB...")
         db = await mongoose(mongoConnectionString)
         console.log('MongoDB connected\n')
