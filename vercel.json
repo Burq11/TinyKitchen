@@ -21,5 +21,6 @@
           "distDir": "frontend/dist"
         }
       }
-    ]
+    ],
+    "devCommand": "npm run dev --prefix frontend"
   }

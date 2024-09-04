@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "./node_modules/.bin/vite",
-    "build": "./node_modules/.bin/vite build",
+    "build": "vite build",
     "preview": "./node_modules/.bin/vite preview",
+    "serve": "./node_modules/.bin/vite",
     "start": "node index.js"
   },
   "dependencies": {
